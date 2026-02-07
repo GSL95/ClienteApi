@@ -63,3 +63,46 @@ DELETE	/api/clientes/{id}	Exclui um cliente<br>
 ├── 📄 Program.cs<br>
 ├── 📄 appsettings.json<br>
 └── 📄 ClienteApi.csproj<br>
+
+<h3>🚀 Como rodar o projeto</h3>
+🔹 Pré-requisitos
+
+.NET 8 SDK
+
+SQL Server (local ou na nuvem)
+
+IDE (Visual Studio / VS Code / Rider)
+
+🔹 Instalar dependências
+
+Via terminal:
+
+dotnet restore
+
+🔹 Configurar banco de dados
+
+Atualize a connection string em appsettings.json:
+
+"ConnectionStrings": {
+  "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=ClienteDb;Trusted_Connection=True;TrustServerCertificate=True"
+}
+
+🔹 Criar e aplicar migrations
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+🔹 Rodar a API
+dotnet run
+
+
+Swagger estará disponível em:
+
+https://localhost:<PORT>/swagger
+
+🧠 Boas práticas aplicadas
+
+✔️ Separação de responsabilidades (Controller → Service)
+✔️ DTOs para entrada/saída dos dados
+✔️ Arquitetura desacoplada
+✔️ Swagger para documentação automática
+✔️ Filtros e validações básicas
