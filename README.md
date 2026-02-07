@@ -4,7 +4,7 @@ API RESTful desenvolvida em ASP.NET Core (.NET 8) para gerenciamento de clientes
 Esta API foi projetada para ser consumida por aplicações externas, neste caso para dar suporte a uma imobiliária que precisava melhorar a gestão dos seus clientes. Mas pode
 ser adapatada para diversas aplicações.
 
-📌 Funcionalidades
+<h3>📌 Funcionalidades</h3>
 
 A API oferece:
 
@@ -34,7 +34,7 @@ Swagger (documentação e testes)
 
 Entity Framework Core com SQL Server
 
-🧪 Endpoints
+<h3>🧪 Endpoints</h3>
 
 A documentação interativa pode ser acessada via Swagger quando a API está rodando localmente ou no ambiente de produção.
 
@@ -42,24 +42,24 @@ A documentação interativa pode ser acessada via Swagger quando a API está rod
 
 https://localhost:<PORT>/swagger
 
-Principais rotas
-Método	Endpoint	Descrição
-GET	/api/clientes	Lista todos os clientes
-GET	/api/clientes/{id}	Busca cliente por ID
-GET	/api/clientes/por-interesse	Lista clientes por interesse
-POST	/api/clientes	Cria um novo cliente
-PUT	/api/clientes/{id}	Atualiza um cliente
-DELETE	/api/clientes/{id}	Exclui um cliente
+Principais rotas<br>
+Método	Endpoint	Descrição<br>
+GET	/api/clientes	Lista todos os clientes<br>
+GET	/api/clientes/{id}	Busca cliente por ID<br>
+GET	/api/clientes/por-interesse	Lista clientes por interesse<br>
+POST	/api/clientes	Cria um novo cliente<br>
+PUT	/api/clientes/{id}	Atualiza um cliente<br>
+DELETE	/api/clientes/{id}	Exclui um cliente<br>
 
-📁 Estrutura do Projeto
+<h3>📁 Estrutura do Projeto</h3>
 
-📦 ClienteApi
-├── 📁 Controllers
-├── 📁 Data
-├── 📁 DTOs
-├── 📁 Models
-│   └── Enums
-├── 📁 Services
-├── 📄 Program.cs
-├── 📄 appsettings.json
-└── 📄 ClienteApi.csproj
+📦 ClienteApi<br>
+├── 📁 Controllers<br>
+├── 📁 Data<br>
+├── 📁 DTOs<br>
+├── 📁 Models<br>
+│   └── Enums<br>
+├── 📁 Services<br>
+├── 📄 Program.cs<br>
+├── 📄 appsettings.json<br>
+└── 📄 ClienteApi.csproj<br>
