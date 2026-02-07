@@ -99,10 +99,10 @@ Swagger estará disponível em:
 
 https://localhost:<PORT>/swagger
 
-🧠 Boas práticas aplicadas
+<h3>🧠 Boas práticas aplicadas</h3>
 
-✔️ Separação de responsabilidades (Controller → Service)
-✔️ DTOs para entrada/saída dos dados
-✔️ Arquitetura desacoplada
-✔️ Swagger para documentação automática
-✔️ Filtros e validações básicas
+✔️ Separação de responsabilidades (Controller → Service)<br>
+✔️ DTOs para entrada/saída dos dados<br>
+✔️ Arquitetura desacoplada<br>
+✔️ Swagger para documentação automática<br>
+✔️ Filtros e validações básicas<br>
